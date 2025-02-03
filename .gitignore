@@ -3,3 +3,6 @@
 __pycache__
 addressbook.json
 application.log
+/build
+/dist
+*.spec
