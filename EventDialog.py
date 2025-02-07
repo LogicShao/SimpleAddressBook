@@ -33,10 +33,6 @@ class AddContactDialog(qtw.QDialog):
             qtw.QDialogButtonBox.StandardButton.Ok)
         self.cancelButton = self.buttonBox.addButton(
             qtw.QDialogButtonBox.StandardButton.Cancel)
-        self.deleteButton = qtw.QPushButton("删除")
-
-        self.buttonBox.addButton(
-            self.deleteButton, qtw.QDialogButtonBox.ButtonRole.ActionRole)
 
         self.layout.addWidget(self.buttonBox)
 
